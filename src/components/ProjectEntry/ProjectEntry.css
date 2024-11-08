@@ -1,0 +1,11 @@
+.ProjectEntryDiv {
+    outline: 1px solid white;
+    border-radius: 5px;
+    padding: 5%;
+    margin-bottom: 10%;
+    transition: all 0.25s;
+}
+
+.ProjectEntryDiv:hover{
+    box-shadow: 0px 0px 15px;
+}

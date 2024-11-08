@@ -1,0 +1,20 @@
+:root {
+  --blackgreen: #1A1A19;
+  --darkgreen : #4f8131;
+  --green     : #859F3D;
+  --whitegreen: #F6FCDF;
+}
+
+body {
+  background-color: var(--blackgreen);
+  color: var(--whitegreen);
+}
+
+a{
+  text-decoration: none;
+  color: var(--green);
+  transition: all 0.15s;
+}
+a:hover{
+  color: var(--darkgreen);
+}
