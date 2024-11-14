@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Typewriter from "typewriter-effect";
 import "./Home.css";
 
 function Home()
@@ -11,9 +12,13 @@ function Home()
             <h1>
                 Home
             </h1>
-            <p className="homeDesc">
-                Portfolio of Ivan Pollak.
-            </p>
+            <Typewriter
+          options={{
+            strings: ["Software Developer", "DSP Enthusiast", "Music Producer"],
+            autoStart: true,
+            loop: true,
+          }}
+        />
         </div>
     )
 }

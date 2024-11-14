@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.mainNavbarDiv>*{
+    text-wrap: nowrap;
+}
+
 .linksNavbarDiv{
     display: flex;
     flex-direction: row;
@@ -13,4 +17,10 @@
 
 .navbarLink{
     padding-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .mainNavbarDiv{
+        flex-direction: column;
+    }
 }

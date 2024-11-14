@@ -12,68 +12,67 @@ function AboutMe()
             <h1>
                 About Me
             </h1>
-
+            
             <p>
-                Hey, I'm Ivan Joël Pollak, 
-                also known as arcathrax in the music world. 
-                I'm currently an apprentice software developer (Informatiker Applikationsentwicklung EFZ)
-                with about two and a half years of experience in building diverse projects. 
-                My journey into software development started with an internship, and since then, 
-                I’ve been hooked on solving complex problems and
-                turning ideas into real-world applications.
+                Hello! 
+                I'm a 19-year-old Software Developer in Training,
+                currently in my second year of apprenticeship.
+                Before that i had the oppertunity to work as an intern for a year,
+                learning general knowledge about hard- and software.
             </p>
 
             <p>
-                I’m proficient in C++, Java, Python, and NodeJS with React,
-                and I’m always eager to expand my skill set. 
-                Lately, I’ve been diving into the JUCE framework and
-                exploring REST APIs with Spring Boot,
-                as I’m fascinated by the intersection of software development 
-                and audio technology.
+                Throughout my journey, 
+                i've gained a strong foundation in various programming languages and technologies,
+                including:
+
+                <ul>
+                    <li>
+                        <b>Java, </b>
+                        <b>C#, </b>
+                        <b>Python, </b>
+                        <b>C++, </b>
+                        <b>HTML5, </b>
+                        <b>CSS, </b>
+                        <b>JavaScript</b>
+                    </li>
+
+                    <li>
+                        <b>UML</b> for software design
+                    </li>
+
+                    <li>
+                        Some experience with 
+                        <b> Spring Boot, </b>
+                        <b>WPF, </b>
+                        and
+                        <b> React JS </b>
+                        (this site is built using React!)
+                    </li>
+                </ul> 
             </p>
 
             <p>
-                On my projects page, 
-                you'll find a variety of creations, 
-                but the ones I’m most proud of are "ExoDist" and my WebScraper.
-                "ExoDist" is special because it combines 
-                my passion for both software development and music production,
-                while the WebScraper project showcases my interest in data and automation.
+                Right now, I'm working on my most ambitious project yet:
+                an audio plugin using Digital Signal Processing with a custom algorithm I developed.
+                This project is particularly special to me
+                because it combines my love for coding with my passion for music production.
+                Through this, I've deepend my knowledge of 
+                <b> C++, </b>
+                <b>low-level programming, </b>
+                and
+                <b>complex algorithm design</b>. 
             </p>
 
             <p>
-                Outside of coding, 
-                I’m a dedicated music producer, sound designer, and DJ.
-                I’ve had the honor of gaining over a million streams with my work,
-                and I love sharing what I’ve learned through tutorials. 
-                When I’m not immersed in tech or music,
-                you’ll likely find me hiking or socializing with friends.
+                Feel free to explore my projects,
+                and don't hesitate to reach out if you'd like to connect!
             </p>
 
-            <p>
-                My goal is to merge my skills as a developer
-                with my love for audio to become an audio software developer. 
-                I dream of spending at least a year 
-                living solely off my music and
-                hope to inspire others along the way with my journey.
-            </p>
-
-            <p>
-            If you’re interested in collaborating on a project, 
-            chatting about audio tech, or just want to connect, feel free to reach out!
-            </p>
 
             <div className="contactLinks">
                 <Link to={"mailto:ivanpollak@tutanota.com"}>
-                    Personal Contact
-                </Link>
-
-                <p>
-                    OR
-                </p>
-
-                <Link to={"mailto:arcathrax@proton.me"}>
-                    Music Inquiries
+                Contact Me
                 </Link>
             </div>
         </div>
