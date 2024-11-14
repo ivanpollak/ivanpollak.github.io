@@ -1,0 +1,16 @@
+.mainNavbarDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.linksNavbarDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbarLink{
+    padding-right: 10px;
+}
