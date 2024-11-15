@@ -14,7 +14,7 @@ function Home()
             </h1>
             <Typewriter
           options={{
-            strings: ["Software Developer", "DSP Enthusiast", "Music Producer"],
+            strings: ["Software Developer", "Coding Enthusiast", "Music Producer", "Problem Solver"],
             autoStart: true,
             loop: true,
           }}

@@ -130,7 +130,8 @@ function Projects() {
                             to create a tool that bridges my love for coding and music production.
                             </p>
                         </div>
-                    }/>
+                    }
+                />
             </div>
         </div>
     )
