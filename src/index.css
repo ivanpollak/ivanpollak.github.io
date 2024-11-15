@@ -1,29 +1,38 @@
 :root {
-  --blackgreen: #1A1A19;
-  --darkgreen : #4f8131;
-  --green     : #80993c;
-  --whitegreen: #F6FCDF;
+  --color1 : #1A1A19;
+  --color2 : #4f8131;
+  --color3 : #80993c;
+  --color4 : #F6FCDF;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@100..900&family=Vesper+Libre:wght@400;500;700;900&display=swap');
 
 body {
-  background-color: var(--whitegreen);
-  color: var(--darkgreen);
+  background-color: var(--color4);
+  color: var(--color2);
   font-family: Libre Baskerville;
 }
 
 a{
   text-decoration: none;
-  color: var(--blackgreen);
+  color: var(--color1);
   transition: all 0.15s;
 }
 a:hover{
-  color: var(--darkgreen);
+  color: var(--color2);
   text-shadow: 0px 0px 5px;
   filter: blur(0.77px);
 }
 
 p{
-  color: var(--green);
+  color: var(--color3);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color1 : #F6FCDF ;
+    --color2 : #80993c ;
+    --color3 : #4f8131 ;
+    --color4 : #1A1A19 ;
+  }
 }

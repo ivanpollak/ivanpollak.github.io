@@ -4,8 +4,8 @@
 }
 
 .infoBarProjects{
-    background-color: var(--blackgreen);
-    color: var(--whitegreen);
+    background-color: var(--color1);
+    color: var(--color4);
     padding: 5px;
     border-radius: 10px;
     margin-bottom: 20px;
