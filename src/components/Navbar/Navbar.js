@@ -1,35 +1,36 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 
-function Navbar()
-{
-    return(
+function Navbar() {
+    const location = useLocation();
+
+    // Funktion, um die aktive Klasse zu setzen
+    const getActiveClass = (path) => (location.pathname === path ? "navbarLink active" : "navbarLink");
+
+    return (
         <div className="mainNavbarDiv">
             {/* Title */}
             <Link to="/">
-                <h1>
-                    Ivan Pollak
-                </h1>
+                <h1>Ivan Pollak</h1>
             </Link>
 
             {/* Links */}
             <div className="linksNavbarDiv">
-                <Link className="navbarLink" to="/">
+                <Link className={getActiveClass("/")} to="/">
                     Home
                 </Link>
 
-                <Link className="navbarLink" to="projects">
+                <Link className={getActiveClass("/projects")} to="/projects">
                     Projects
                 </Link>
 
-                <Link className="navbarLink" to="/about-me">
+                <Link className={getActiveClass("/about-me")} to="/about-me">
                     About Me
                 </Link>
             </div>
         </div>
-    )
+    );
 }
 
 export default Navbar;
