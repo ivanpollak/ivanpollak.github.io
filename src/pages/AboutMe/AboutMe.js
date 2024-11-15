@@ -61,7 +61,7 @@ function AboutMe()
                 <b> C++, </b>
                 <b>low-level programming, </b>
                 and
-                <b>complex algorithm design</b>. 
+                <b> complex algorithm design</b>. 
             </p>
 
             <p>
