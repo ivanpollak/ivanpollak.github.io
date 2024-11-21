@@ -2,7 +2,7 @@ const ExoDist = {
     title: "ExoDist",
     shortDesc: (
       <p>
-        <b>ExoDist</b> 
+        <b>ExoDist </b> 
         is a custom-designed distortion audio plugin, 
         inspired by my passion for music production and DJing.
       </p>

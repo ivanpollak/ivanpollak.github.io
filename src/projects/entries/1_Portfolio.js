@@ -5,7 +5,7 @@ const PersonalPortfolioWebsite = {
     shortDesc: (
         <div>
         <p>
-            A dynamic portfolio website showcasing my skills in HTML, CSS, JavaScript, and React
+            A portfolio website showcasing my skills in HTML, CSS, JavaScript, and React
         </p>
     </div>
     ),

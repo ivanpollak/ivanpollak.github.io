@@ -5,16 +5,15 @@ const Selentia = {
     shortDesc: (
 	<div>
 		<p>
-			<i>Selentia </i>
-			is a simple .wav player.
+			<b>Selentia </b>
+			is a simple .wav file player.
 		</p>
 	</div>
     ),
     description: (
 		<div>
 			<p>
-				<i>Selentia </i>
-				holds a special place in my journey as a developer.
+				This project holds a special place in my journey as a developer.
 				It was one of my very first private projects,
 				and though simple in its execution,
 				it taugth me invaluable lessions about programmin,
