@@ -1,8 +1,7 @@
-const context = require.context("./", false, /\.js$/);
+const context = require.context("./entries", false, /\.js$/);
 
 const projects = context
   .keys()
-  .filter((key) => key !== "./index.js") // Exkludiere die Index-Datei
   .map((key) => context(key).default);
 
 export default projects;
