@@ -102,7 +102,7 @@ const ExoDist = {
         <p>
         ExoDist is still a work in progress, 
         but the end is in sight. 
-        The source code is available as an open project, 
+        The source code will be available as an open project, 
         while compiled binaries will be available for purchase upon release. 
         This project has not only taught me about the technical 
         side of audio plugin development 
